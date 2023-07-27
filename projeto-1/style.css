@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.central-searchbar{
+    width: 15em;
+    height: 10em;
+    position: absolute;
+}
+
+.central-searchbar > input{
+    width: 45em;
+    height: 3em;
+    position: relative;
+    top: 25em;
+    left: 30em;
+    border-radius: 35px;
+}
+
+input{
+    text-align: center;
+    font-size: 15px;
+}
+.central-searchbar > :placeholder-shown{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(216, 213, 213);
+}
