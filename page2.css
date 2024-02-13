@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #c5e2e2, #48e7e794);
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-area{
+    width: 500px;
+    height: 250px;
+    max-width: 100%;
+    min-height: 480px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+h1{
+    text-align: center;
+    background: linear-gradient(to right, #e5e2e2, #48e7e794);
+    margin-top: -100px;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+
+p{
+    font-size: 1.1em;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 13px;
+    padding: 5px 0 5px 5px ;
+    
+}
+
+#masc{
+    width: 15px;
+    display: flex;
+    left: 15px;
+}
+
+
+#fem{
+    width: 15px;
+    display: flex;
+    left: 15px;
+}
+
+.genero{
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+span{
+    margin-top: 15px;
+}
+
+.spn-masc{
+    font-size: 1.1em;
+    margin-top: 35px;
+}
+
+.sub{
+    margin-top: 85px;
+}
+
+.btn-submit{
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(to right, #c5e2e2, #48e7e794);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
